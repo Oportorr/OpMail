@@ -3,7 +3,7 @@ using System;
 using System.Windows.Forms;
 
 
-namespace CsFoxySmtp
+namespace OscarSoft
 {
     public partial class frmSenMail : Form
     {
@@ -36,7 +36,7 @@ namespace CsFoxySmtp
                 from      =  txtFrom.Text,                 
                 subjet    =  txtSubject.Text,
                 body      =  txtBody.Text,
-                timeout   =  100000,
+                timeout   =  200000,
 
                 notification = true            
         };

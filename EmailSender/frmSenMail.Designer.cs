@@ -1,4 +1,4 @@
-﻿namespace CsFoxySmtp
+﻿namespace OscarSoft
 {
     partial class frmSenMail
     {
