@@ -6,7 +6,7 @@ using System.Net.Mail;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace OscarSoft.OpMail
+namespace OscarSoft
 {
     [ClassInterface(ClassInterfaceType.AutoDual)]
     [ProgId("OpMail")]
@@ -76,7 +76,7 @@ namespace OscarSoft.OpMail
                 Host = server,
                 Port = port,
                 UseDefaultCredentials = false,
-                Timeout = 20000,
+                Timeout = timeout,
                 DeliveryMethod = SmtpDeliveryMethod.Network,
                 Credentials = new NetworkCredential(user, password)
 
